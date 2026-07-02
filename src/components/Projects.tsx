@@ -54,7 +54,7 @@ export const Projects = () => {
       title: "Authentication System",
       description: "Secure login and registration system with JWT-based authentication, password hashing with bcrypt, and client-side form validation using Yup. Foundation for secure applications.",
       technologies: ["React.js", "Node.js", "JWT", "bcrypt", "Yup Validation", "Security", "Form Handling"],
-      image: projectImage('auth-system.svg'),
+      image: projectImage('auth-system.png'),
       githubUrl: "https://github.com/bijesh2016/auth-system",
       liveUrl: "#"
     },
@@ -63,7 +63,7 @@ export const Projects = () => {
       title: "Event Management System",
       description: "A complete event booking platform where users can reserve seats, complete payments, manage tickets, and handle multiple reservation flows from one dashboard.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Seat Booking", "Payments", "Reservations"],
-      image: projectImage('event-management.svg'),
+      image: projectImage('event-management.png'),
       githubUrl: "https://github.com/bijesh2016/event-management",
       liveUrl: "#"
     },
@@ -72,7 +72,7 @@ export const Projects = () => {
       title: "Nepdial Listing Platform",
       description: "A Nepal-first listing platform for products, businesses, services, education, hotels, restaurants, pets, banks, and more with map integration and discovery tools.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Maps Integration", "Search", "Local Listings"],
-      image: projectImage('nepdial-listing.svg'),
+      image: projectImage('nepdial-listing.png'),
       githubUrl: "https://github.com/bijesh2016/nepdial",
       liveUrl: "#"
     },
@@ -81,7 +81,7 @@ export const Projects = () => {
       title: "Hidden Nepal Mobile App",
       description: "A travel and blog-style mobile app highlighting Nepal's rated and underrated places, itinerary planning, and guide content built for discovery on the go.",
       technologies: ["React Native", "Travel Content", "Itinerary Planning", "Mobile UI", "Guides", "Blog Experience"],
-      image: projectImage('hidden-nepal-mobile.svg'),
+      image: projectImage('hidden-nepal-mobile.png'),
       githubUrl: "https://github.com/bijesh2016/hidden-nepal",
       liveUrl: "#"
     },
@@ -90,7 +90,7 @@ export const Projects = () => {
       title: "NepTrek Travel Platform",
       description: "A travel booking and planning platform for flights, buses, taxis, itineraries, and travel blogs designed to simplify Nepal travel planning.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Flights", "Bus Booking", "Itinerary Builder"],
-      image: projectImage('neptrek.svg'),
+      image: projectImage('neptrek.png'),
       githubUrl: "https://github.com/bijesh2016/neptrek",
       liveUrl: "#"
     },
@@ -99,7 +99,7 @@ export const Projects = () => {
       title: "Travelia Web App",
       description: "An informational web app covering every continent, their countries, major attractions, and famous destinations in a structured travel guide format.",
       technologies: ["React.js", "Node.js", "Travel Data", "Content Pages", "Destination Guides", "Search", "Responsive UI"],
-      image: projectImage('travelia-world-guide.svg'),
+      image: projectImage('travelia-world-guide.png'),
       githubUrl: "https://github.com/bijesh2016/travelia",
       liveUrl: "#"
     },
@@ -108,7 +108,7 @@ export const Projects = () => {
       title: "Lost and Found System",
       description: "An airport-ready lost and found system for posting items, verifying claims, and supporting automated product detection to speed up recovery workflows.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Claims", "Verification", "Automation"],
-      image: projectImage('lost-found-system.svg'),
+      image: projectImage('lost-found-system.png'),
       githubUrl: "https://github.com/bijesh2016/lost-found",
       liveUrl: "#"
     },
@@ -117,7 +117,7 @@ export const Projects = () => {
       title: "My Portfolio",
       description: "My personal portfolio that presents my projects, professional identity, contact links, and background as a developer in one place.",
       technologies: ["React.js", "Tailwind CSS", "Responsive Design", "Portfolio", "Personal Branding"],
-      image: projectImage('bijesh-portfolio.svg'),
+      image: projectImage('bijesh-portfolio.png'),
       githubUrl: "https://github.com/bijesh2016/portfolio",
       liveUrl: "#"
     }
