@@ -60,20 +60,24 @@ export const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-secondary/20">
+    <section id="contact" className="section-shell py-20 bg-secondary/10">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_left,hsl(var(--primary)/0.1),transparent_26%)]"></div>
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in-up">
+          <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-4 py-2 text-sm text-primary mb-6">
+            Let’s build something premium
+          </div>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
             Get In <span className="bg-tech-gradient bg-clip-text text-transparent">Touch</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Have a project in mind or want to collaborate? I'd love to hear from you! 
             Let's build something amazing together.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <Card className="border-border/50 bg-card/50 backdrop-blur-sm animate-fade-in-up">
+          <Card className="glass-panel animate-fade-in-up rounded-3xl">
             <CardHeader>
               <h3 className="text-2xl font-semibold text-primary">Send me a message</h3>
               <p className="text-muted-foreground">
@@ -91,7 +95,7 @@ export const Contact = () => {
                     onChange={handleInputChange}
                     placeholder="Your full name"
                     required
-                    className="border-border/50 focus:border-primary"
+                    className="border-border/50 bg-background/60 focus-visible:ring-2 focus-visible:ring-primary/40"
                   />
                 </div>
 
@@ -105,7 +109,7 @@ export const Contact = () => {
                     onChange={handleInputChange}
                     placeholder="your.email@example.com"
                     required
-                    className="border-border/50 focus:border-primary"
+                    className="border-border/50 bg-background/60 focus-visible:ring-2 focus-visible:ring-primary/40"
                   />
                 </div>
 
@@ -119,14 +123,14 @@ export const Contact = () => {
                     placeholder="Tell me about your project or just say hello!"
                     required
                     rows={5}
-                    className="border-border/50 focus:border-primary resize-none"
+                    className="border-border/50 bg-background/60 focus-visible:ring-2 focus-visible:ring-primary/40 resize-none"
                   />
                 </div>
 
                 <Button 
                   type="submit" 
                   disabled={isSubmitting}
-                  className="w-full bg-tech-gradient hover:scale-105 transition-all shadow-glow-primary"
+                  className="w-full bg-tech-gradient hover:scale-[1.01] transition-all duration-300 shadow-glow-primary rounded-full"
                 >
                   {isSubmitting ? (
                     <>
@@ -157,7 +161,7 @@ export const Contact = () => {
 
             <div className="space-y-6">
               {contactInfo.map((info, index) => (
-                <div key={index} className="flex items-center space-x-4">
+                <div key={index} className="flex items-center space-x-4 rounded-2xl border border-border/50 bg-card/40 p-4 backdrop-blur-xl">
                   <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 border border-primary/20">
                     <div className="text-primary">
                       {info.icon}
@@ -181,7 +185,7 @@ export const Contact = () => {
               <div className="flex space-x-4">
                 <a 
                   href="https://github.com/bijesh2016" 
-                  className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground transition-colors hover:scale-110 transform"
+                  className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110 transform"
                   aria-label="GitHub"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -190,7 +194,7 @@ export const Contact = () => {
                 </a>
                 <a 
                   href="https://www.linkedin.com/in/bijeshsharma/" 
-                  className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground transition-colors hover:scale-110 transform"
+                  className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110 transform"
                   aria-label="LinkedIn"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -199,7 +203,7 @@ export const Contact = () => {
                 </a>
                 <a 
                   href="https://x.com/bijesh_sharma2" 
-                  className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground transition-colors hover:scale-110 transform"
+                  className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 border border-primary/20 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-110 transform"
                   aria-label="Twitter"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">

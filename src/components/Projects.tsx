@@ -1,78 +1,161 @@
 import { ProjectCard } from './ProjectCard';
 
 export const Projects = () => {
+  const projectImage = (fileName: string) => `/projects/${fileName}`;
+
   const projects = [
     {
+      category: "Location Tech",
       title: "ATM Locator System",
       description: "Real-time search of ATMs with comparison, user reviews, and an admin dashboard. Built using the MERN stack with role-based authentication and location-based services.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "JWT", "Geolocation API", "Admin Dashboard"],
-      image: "/projects/atm.png",
+      image: projectImage('atm.png'),
       githubUrl: "https://github.com/bijesh2016/atm-locator",
       liveUrl: "#"
     },
     {
+      category: "Events",
       title: "Event Ticketing Platform",
       description: "Complete system for event ticket bookings, organizer dashboards, and payment gateway integration (Khalti, Stripe). Features user and organizer portals with dynamic seat and pricing logic.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Stripe API", "Khalti", "Payment Gateway", "Seat Management"],
-      image: "/projects/event-ticketing.png",
+      image: projectImage('event-ticketing.svg'),
       githubUrl: "https://github.com/bijesh2016/event-ticketing",
       liveUrl: "#"
     },
     {
+      category: "Travel Blog",
       title: "Tourism Blog Platform (Nepal Edition)",
       description: "A content-based blog platform showcasing top travel destinations of Nepal. Includes admin-managed posts, image galleries, and categorized search features. SEO optimized for better reach.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "SEO Optimization", "Image Upload", "Content Management"],
-      image: "/projects/tourism.png",
+      image: projectImage('tourism.png'),
       githubUrl: "https://github.com/bijesh2016/tourism-blog",
       liveUrl: "#"
     },
     {
+      category: "Hospitality",
       title: "Hotel Reservation System",
       description: "Hotel booking system with features like room availability checking, date filters, user authentication, and booking confirmation. Future-ready for integrations like payment and email notifications.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Date Filtering", "Booking System", "Authentication"],
-      image: "/projects/hotel.jpg",
+      image: projectImage('hotel.jpg'),
       githubUrl: "https://github.com/bijesh2016/hotel-reservation",
       liveUrl: "#"
     },
     {
+      category: "Ecommerce",
       title: "Grocery Store E-Commerce Platform",
       description: "A mini e-commerce application for online grocery shopping with product search, cart, checkout, admin product management, and responsive UI. Complete shopping experience.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Shopping Cart", "Admin Panel", "Product Management"],
-      image: "/projects/grocery.png",
+      image: projectImage('grocery.png'),
       githubUrl: "https://github.com/bijesh2016/grocery-store",
       liveUrl: "#"
     },
     {
+      category: "Security",
       title: "Authentication System",
       description: "Secure login and registration system with JWT-based authentication, password hashing with bcrypt, and client-side form validation using Yup. Foundation for secure applications.",
       technologies: ["React.js", "Node.js", "JWT", "bcrypt", "Yup Validation", "Security", "Form Handling"],
-      image: "/projects/auth.png",
+      image: projectImage('auth-system.svg'),
       githubUrl: "https://github.com/bijesh2016/auth-system",
+      liveUrl: "#"
+    },
+    {
+      category: "Reservations",
+      title: "Event Management System",
+      description: "A complete event booking platform where users can reserve seats, complete payments, manage tickets, and handle multiple reservation flows from one dashboard.",
+      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Seat Booking", "Payments", "Reservations"],
+      image: projectImage('event-management.svg'),
+      githubUrl: "https://github.com/bijesh2016/event-management",
+      liveUrl: "#"
+    },
+    {
+      category: "Discovery",
+      title: "Nepdial Listing Platform",
+      description: "A Nepal-first listing platform for products, businesses, services, education, hotels, restaurants, pets, banks, and more with map integration and discovery tools.",
+      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Maps Integration", "Search", "Local Listings"],
+      image: projectImage('nepdial-listing.svg'),
+      githubUrl: "https://github.com/bijesh2016/nepdial",
+      liveUrl: "#"
+    },
+    {
+      category: "Mobile App",
+      title: "Hidden Nepal Mobile App",
+      description: "A travel and blog-style mobile app highlighting Nepal's rated and underrated places, itinerary planning, and guide content built for discovery on the go.",
+      technologies: ["React Native", "Travel Content", "Itinerary Planning", "Mobile UI", "Guides", "Blog Experience"],
+      image: projectImage('hidden-nepal-mobile.svg'),
+      githubUrl: "https://github.com/bijesh2016/hidden-nepal",
+      liveUrl: "#"
+    },
+    {
+      category: "Travel Planning",
+      title: "NepTrek Travel Platform",
+      description: "A travel booking and planning platform for flights, buses, taxis, itineraries, and travel blogs designed to simplify Nepal travel planning.",
+      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Flights", "Bus Booking", "Itinerary Builder"],
+      image: projectImage('neptrek.svg'),
+      githubUrl: "https://github.com/bijesh2016/neptrek",
+      liveUrl: "#"
+    },
+    {
+      category: "World Guide",
+      title: "Travelia Web App",
+      description: "An informational web app covering every continent, their countries, major attractions, and famous destinations in a structured travel guide format.",
+      technologies: ["React.js", "Node.js", "Travel Data", "Content Pages", "Destination Guides", "Search", "Responsive UI"],
+      image: projectImage('travelia-world-guide.svg'),
+      githubUrl: "https://github.com/bijesh2016/travelia",
+      liveUrl: "#"
+    },
+    {
+      category: "Recovery",
+      title: "Lost and Found System",
+      description: "An airport-ready lost and found system for posting items, verifying claims, and supporting automated product detection to speed up recovery workflows.",
+      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Claims", "Verification", "Automation"],
+      image: projectImage('lost-found-system.svg'),
+      githubUrl: "https://github.com/bijesh2016/lost-found",
+      liveUrl: "#"
+    },
+    {
+      category: "Brand",
+      title: "My Portfolio",
+      description: "My personal portfolio that presents my projects, professional identity, contact links, and background as a developer in one place.",
+      technologies: ["React.js", "Tailwind CSS", "Responsive Design", "Portfolio", "Personal Branding"],
+      image: projectImage('bijesh-portfolio.svg'),
+      githubUrl: "https://github.com/bijesh2016/portfolio",
       liveUrl: "#"
     }
   ];
 
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="relative py-20 overflow-hidden">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,hsl(var(--primary)/0.12),transparent_40%),linear-gradient(to_bottom,hsl(var(--background)),hsl(var(--background)/0.96))]" />
+      <div className="absolute -top-24 right-0 h-72 w-72 rounded-full bg-primary/10 blur-3xl animate-glow-pulse" />
+      <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-accent/10 blur-3xl animate-glow-pulse" />
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+        <div className="relative text-center mb-16 animate-fade-in-up">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/20 bg-primary/10 text-primary text-sm mb-6 shadow-glow-primary">
+            <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
+            Selected builds and concepts
+          </div>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6 tracking-tight">
             My <span className="bg-tech-gradient bg-clip-text text-transparent">Projects</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Here are some of the projects I've built while learning and mastering the MERN Stack. 
-            Each project represents a step in my journey as a full-stack developer.
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            A curated set of products and concepts across booking, ecommerce, travel, discovery, and personal branding.
+            Each card is styled to feel more like a premium showcase than a plain portfolio list.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="animate-fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
+            <div
+              key={index}
+              className={`animate-fade-in-up motion-safe:transition-transform motion-safe:hover:-translate-y-1 ${index === 0 ? 'xl:col-span-8' : index === 1 ? 'xl:col-span-4' : index % 5 === 0 ? 'xl:col-span-6' : 'xl:col-span-4'}`}
+              style={{ animationDelay: `${index * 0.08}s` }}
+            >
               <ProjectCard 
               title={project.title}
               description={project.description}
               technologies={project.technologies}
               image={project.image}
+              category={project.category}
               githubUrl={project.githubUrl}
               liveUrl={project.liveUrl}
             />

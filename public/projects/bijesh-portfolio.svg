@@ -1,0 +1,14 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="48" fill="#09111B"/>
+  <rect x="64" y="64" width="1072" height="672" rx="40" fill="#0F172A" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="180" y="200" width="420" height="340" rx="34" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.14)"/>
+  <circle cx="320" cy="308" r="70" fill="rgba(59,130,246,0.2)"/>
+  <rect x="255" y="398" width="130" height="26" rx="13" fill="rgba(255,255,255,0.55)"/>
+  <rect x="225" y="444" width="190" height="24" rx="12" fill="rgba(255,255,255,0.35)"/>
+  <rect x="672" y="224" width="252" height="72" rx="22" fill="#38BDF8"/>
+  <rect x="672" y="324" width="320" height="72" rx="22" fill="rgba(255,255,255,0.08)"/>
+  <rect x="672" y="424" width="280" height="72" rx="22" fill="rgba(255,255,255,0.08)"/>
+  <text x="738" y="274" fill="#07111D" font-family="Arial, sans-serif" font-size="24" font-weight="700">Portfolio</text>
+  <text x="110" y="730" fill="rgba(255,255,255,0.88)" font-family="Arial, sans-serif" font-size="40" font-weight="700">My Portfolio</text>
+  <text x="110" y="772" fill="rgba(255,255,255,0.55)" font-family="Arial, sans-serif" font-size="22">Projects, identity, and contact showcase</text>
+</svg>

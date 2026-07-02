@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Modern MERN Portfolio Design System - Dark-focused tech aesthetic */
+/* Premium portfolio design system */
 
 @layer base {
   :root {
@@ -70,11 +72,53 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   * {
     @apply border-border;
   }
 
   body {
+    @apply bg-background text-foreground antialiased;
+    background-image:
+      radial-gradient(circle at top, hsl(var(--primary) / 0.16), transparent 30%),
+      radial-gradient(circle at 85% 15%, hsl(var(--accent) / 0.14), transparent 22%),
+      linear-gradient(to bottom, hsl(var(--background)), hsl(var(--background) / 0.96));
+    background-attachment: fixed;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: -0.03em;
+  }
+
+  body {
     @apply bg-background text-foreground;
+  }
+
+  ::selection {
+    background: hsl(var(--primary) / 0.3);
+    color: hsl(var(--foreground));
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply border border-white/10 bg-white/5 backdrop-blur-xl shadow-2xl shadow-black/20;
+  }
+
+  .section-shell {
+    @apply relative overflow-hidden;
+  }
+
+  .section-shell::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, hsl(var(--background) / 0.15), transparent 30%, hsl(var(--background) / 0.35));
+    pointer-events: none;
   }
 }

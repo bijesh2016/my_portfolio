@@ -1,0 +1,17 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="48" fill="#0B1020"/>
+  <rect x="64" y="64" width="1072" height="672" rx="40" fill="#111827" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="970" cy="130" r="120" fill="rgba(168,85,247,0.16)"/>
+  <rect x="160" y="170" width="880" height="500" rx="36" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="208" y="224" width="200" height="52" rx="16" fill="#38BDF8"/>
+  <rect x="434" y="224" width="200" height="52" rx="16" fill="rgba(255,255,255,0.12)"/>
+  <rect x="660" y="224" width="200" height="52" rx="16" fill="rgba(255,255,255,0.12)"/>
+  <rect x="208" y="320" width="660" height="72" rx="20" fill="rgba(255,255,255,0.08)"/>
+  <rect x="208" y="412" width="520" height="72" rx="20" fill="rgba(255,255,255,0.08)"/>
+  <rect x="208" y="504" width="400" height="72" rx="20" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="910" cy="404" r="118" fill="rgba(56,189,248,0.18)"/>
+  <path d="M910 344V464" stroke="#38BDF8" stroke-width="22" stroke-linecap="round"/>
+  <path d="M848 404H972" stroke="#38BDF8" stroke-width="22" stroke-linecap="round"/>
+  <text x="110" y="730" fill="rgba(255,255,255,0.88)" font-family="Arial, sans-serif" font-size="40" font-weight="700">Event Management System</text>
+  <text x="110" y="772" fill="rgba(255,255,255,0.55)" font-family="Arial, sans-serif" font-size="22">Reservations, seat booking, and payments</text>
+</svg>

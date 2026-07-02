@@ -27,21 +27,25 @@ export const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-secondary/20">
+    <section id="about" className="section-shell py-20 bg-secondary/10">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,hsl(var(--accent)/0.08),transparent_25%)]"></div>
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 animate-fade-in-up">
+          <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-4 py-2 text-sm text-primary mb-6">
+            About section
+          </div>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
             About <span className="bg-tech-gradient bg-clip-text text-transparent">Me</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate IT learner on a journey to master the MERN Stack and build amazing web applications
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            Passionate IT learner on a journey to master the MERN Stack and build polished digital products.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* About Content */}
           <div className="space-y-6 animate-fade-in-up">
-            <div className="space-y-4">
+            <div className="glass-panel rounded-3xl p-8 space-y-4">
               <h3 className="text-2xl font-semibold text-primary">My Journey</h3>
               <p className="text-muted-foreground leading-relaxed">
                 I'm an aspiring MERN Stack developer with a passion for creating dynamic, 
@@ -55,7 +59,7 @@ export const About = () => {
               </p>
             </div>
 
-            <div className="space-y-4">
+            <div className="glass-panel rounded-3xl p-8 space-y-4">
               <h3 className="text-2xl font-semibold text-primary">What Drives Me</h3>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center">
@@ -77,7 +81,7 @@ export const About = () => {
               </ul>
             </div>
 
-            <Button className="bg-tech-gradient hover:scale-105 transition-all shadow-glow-primary">
+            <Button className="bg-tech-gradient hover:scale-105 transition-all duration-300 shadow-glow-primary rounded-full px-6">
               Download Resume
             </Button>
           </div>
@@ -85,10 +89,10 @@ export const About = () => {
           {/* Skills Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 animate-fade-in-up">
             {skills.map((skill, index) => (
-              <Card key={index} className="border-border/50 bg-card/50 backdrop-blur-sm hover:shadow-glow-primary/20 transition-all hover:scale-105">
+              <Card key={index} className="group border-border/50 bg-card/50 backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-glow-primary/20">
                 <CardContent className="p-6">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="text-primary">
+                    <div className="rounded-2xl bg-primary/10 p-3 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
                       {skill.icon}
                     </div>
                     <h4 className="font-semibold text-lg">{skill.category}</h4>
@@ -97,7 +101,7 @@ export const About = () => {
                     {skill.techs.map((tech, techIndex) => (
                       <span 
                         key={techIndex}
-                        className="px-3 py-1 text-sm bg-primary/10 text-primary rounded-full border border-primary/20"
+                        className="px-3 py-1 text-sm bg-primary/10 text-primary rounded-full border border-primary/20 transition-colors group-hover:bg-primary/15"
                       >
                         {tech}
                       </span>
