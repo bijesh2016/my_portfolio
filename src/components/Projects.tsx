@@ -11,7 +11,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "JWT", "Geolocation API", "Admin Dashboard"],
       image: projectImage('atm.png'),
       githubUrl: "https://github.com/bijesh2016/atm-locator",
-      liveUrl: "#"
+      liveUrl: "https://www.nepdial.com"
     },
     {
       category: "Events",
@@ -20,7 +20,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Stripe API", "Khalti", "Payment Gateway", "Seat Management"],
       image: projectImage('event-ticketing.svg'),
       githubUrl: "https://github.com/bijesh2016/event-ticketing",
-      liveUrl: "#"
+      liveUrl: "https://www.event.bijeshrajsharma.com.np"
     },
     {
       category: "Travel Blog",
@@ -29,7 +29,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "SEO Optimization", "Image Upload", "Content Management"],
       image: projectImage('tourism.png'),
       githubUrl: "https://github.com/bijesh2016/tourism-blog",
-      liveUrl: "#"
+      liveUrl: "https://www.tourism.bijeshrajsharma.com.np"
     },
     {
       category: "Hospitality",
@@ -38,7 +38,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Date Filtering", "Booking System", "Authentication"],
       image: projectImage('hotel.jpg'),
       githubUrl: "https://github.com/bijesh2016/hotel-reservation",
-      liveUrl: "#"
+      liveUrl: "https://www.hotel.bijeshrajsharma.com.np"
     },
     {
       category: "Ecommerce",
@@ -47,7 +47,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Shopping Cart", "Admin Panel", "Product Management"],
       image: projectImage('grocery.png'),
       githubUrl: "https://github.com/bijesh2016/grocery-store",
-      liveUrl: "#"
+      liveUrl: "https://www.shop.bijeshrajsharma.com.np"
     },
     {
       category: "Security",
@@ -56,7 +56,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "JWT", "bcrypt", "Yup Validation", "Security", "Form Handling"],
       image: projectImage('auth-system.png'),
       githubUrl: "https://github.com/bijesh2016/auth-system",
-      liveUrl: "#"
+      liveUrl: "https://www.bijeshrajsharma.com.np"
     },
     {
       category: "Reservations",
@@ -65,7 +65,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Seat Booking", "Payments", "Reservations"],
       image: projectImage('event-management.png'),
       githubUrl: "https://github.com/bijesh2016/event-management",
-      liveUrl: "#"
+      liveUrl: "https://www.event.bijeshrajsharma.com.np"
     },
     {
       category: "Discovery",
@@ -74,7 +74,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Maps Integration", "Search", "Local Listings"],
       image: projectImage('nepdial-listing.png'),
       githubUrl: "https://github.com/bijesh2016/nepdial",
-      liveUrl: "#"
+      liveUrl: "https://www.nepdial.com"
     },
     {
       category: "Mobile App",
@@ -83,7 +83,7 @@ export const Projects = () => {
       technologies: ["React Native", "Travel Content", "Itinerary Planning", "Mobile UI", "Guides", "Blog Experience"],
       image: projectImage('hidden-nepal-mobile.png'),
       githubUrl: "https://github.com/bijesh2016/hidden-nepal",
-      liveUrl: "#"
+      liveUrl: "https://www.hiddennepal.com"
     },
     {
       category: "Travel Planning",
@@ -92,7 +92,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Flights", "Bus Booking", "Itinerary Builder"],
       image: projectImage('neptrek.png'),
       githubUrl: "https://github.com/bijesh2016/neptrek",
-      liveUrl: "#"
+      liveUrl: "https://travel.bijeshrajsharma.com.np"
     },
     {
       category: "World Guide",
@@ -101,7 +101,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "Travel Data", "Content Pages", "Destination Guides", "Search", "Responsive UI"],
       image: projectImage('travelia-world-guide.png'),
       githubUrl: "https://github.com/bijesh2016/travelia",
-      liveUrl: "#"
+      liveUrl: "https://tourism.bijeshrajsharma.com.np"
     },
     {
       category: "Recovery",
@@ -110,7 +110,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Claims", "Verification", "Automation"],
       image: projectImage('lost-found-system.png'),
       githubUrl: "https://github.com/bijesh2016/lost-found",
-      liveUrl: "#"
+      liveUrl: "https://www.lostfound.bijeshrajsharma.com.np"
     },
     {
       category: "Brand",
@@ -119,7 +119,7 @@ export const Projects = () => {
       technologies: ["React.js", "Tailwind CSS", "Responsive Design", "Portfolio", "Personal Branding"],
       image: projectImage('bijesh-portfolio.png'),
       githubUrl: "https://github.com/bijesh2016/portfolio",
-      liveUrl: "#"
+      liveUrl: "https://www.bijeshrajsharma.com.np"
     }
   ];
 
