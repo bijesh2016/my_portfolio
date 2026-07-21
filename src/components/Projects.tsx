@@ -20,7 +20,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Stripe API", "Khalti", "Payment Gateway", "Seat Management"],
       image: projectImage('event-ticketing.svg'),
       githubUrl: "https://github.com/bijesh2016/event-ticketing",
-      liveUrl: "https://www.event.bijeshrajsharma.com.np"
+      liveUrl: "https://event.bijeshrajsharma.com.np"
     },
     {
       category: "Travel Blog",
@@ -29,7 +29,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "SEO Optimization", "Image Upload", "Content Management"],
       image: projectImage('tourism.png'),
       githubUrl: "https://github.com/bijesh2016/tourism-blog",
-      liveUrl: "https://www.tourism.bijeshrajsharma.com.np"
+      liveUrl: "https://tourism.bijeshrajsharma.com.np"
     },
     {
       category: "Hospitality",
@@ -38,7 +38,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Date Filtering", "Booking System", "Authentication"],
       image: projectImage('hotel.jpg'),
       githubUrl: "https://github.com/bijesh2016/hotel-reservation",
-      liveUrl: "https://www.hotel.bijeshrajsharma.com.np"
+      liveUrl: "https://hotel.bijeshrajsharma.com.np"
     },
     {
       category: "Ecommerce",
@@ -47,7 +47,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Shopping Cart", "Admin Panel", "Product Management"],
       image: projectImage('grocery.png'),
       githubUrl: "https://github.com/bijesh2016/grocery-store",
-      liveUrl: "https://www.shop.bijeshrajsharma.com.np"
+      liveUrl: "https://shop.bijeshrajsharma.com.np"
     },
     {
       category: "Security",
@@ -65,7 +65,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Seat Booking", "Payments", "Reservations"],
       image: projectImage('event-management.png'),
       githubUrl: "https://github.com/bijesh2016/event-management",
-      liveUrl: "https://www.event.bijeshrajsharma.com.np"
+      liveUrl: "https://event.bijeshrajsharma.com.np"
     },
     {
       category: "Discovery",
@@ -110,7 +110,7 @@ export const Projects = () => {
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Claims", "Verification", "Automation"],
       image: projectImage('lost-found-system.png'),
       githubUrl: "https://github.com/bijesh2016/lost-found",
-      liveUrl: "https://www.lostfound.bijeshrajsharma.com.np"
+      liveUrl: "https://lostfound.bijeshrajsharma.com.np"
     },
     {
       category: "Brand",
