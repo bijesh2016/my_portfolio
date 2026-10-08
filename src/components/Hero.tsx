@@ -29,7 +29,7 @@ export const Hero = () => {
                 className="relative w-72 h-72 md:w-80 md:h-80 rounded-full object-cover border-[6px] border-white/10 shadow-2xl shadow-black/30"
               />
               <div className="absolute -bottom-3 left-8 rounded-full border border-white/10 bg-card/70 px-4 py-2 text-sm text-muted-foreground backdrop-blur-md">
-                Available for premium work
+                Open to work
               </div>
             </div>
           </div>
@@ -40,10 +40,10 @@ export const Hero = () => {
               <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-4 py-2 text-sm text-primary mb-6">
                 Full-stack developer from Nepal
               </div>
-              <p className="text-primary font-mono text-lg mb-2">Hello, I'm Bijesh Raj Sharma a</p>
+              <p className="text-primary font-mono text-lg mb-2">Hey, I'm Bijesh Raj Sharma</p>
               <h1 className="text-5xl lg:text-7xl font-bold mb-4 leading-tight">
                 <span className="bg-tech-gradient bg-clip-text text-transparent">
-                  MERN Stack
+                  Full-Stack
                 </span>
                 <br />
                 <span className="text-foreground">Developer</span>
@@ -55,8 +55,7 @@ export const Hero = () => {
             </div>
 
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl leading-8">
-              Aspiring Full Stack Engineer crafting modern web applications with cutting-edge 
-              technologies. From databases to user interfaces, I bring ideas to life through code.
+              I've been coding for a while now, building things with the MERN stack. Started with curiosity about how websites work, now I'm building full applications from scratch. Always learning, always building.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -79,7 +78,7 @@ export const Hero = () => {
 
             <div className="grid grid-cols-3 gap-4 max-w-xl mx-auto lg:mx-0 mb-8">
               <div className="glass-panel rounded-2xl p-4 text-left">
-                <p className="text-2xl font-bold text-primary">10+</p>
+                <p className="text-2xl font-bold text-primary">17+</p>
                 <p className="text-xs text-muted-foreground uppercase tracking-[0.2em]">Projects</p>
               </div>
               <div className="glass-panel rounded-2xl p-4 text-left">

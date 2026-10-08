@@ -40,7 +40,7 @@ export const About = () => {
             About <span className="bg-tech-gradient bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Passionate IT learner on a journey to master the MERN Stack and build polished digital products.
+            I'm a developer who loves building things with the MERN stack. Here's a bit about my journey and what I've been working on.
           </p>
         </div>
 
@@ -50,35 +50,31 @@ export const About = () => {
             <div className="glass-panel rounded-3xl p-8 space-y-4">
               <h3 className="text-2xl font-semibold text-primary">My Journey</h3>
               <p className="text-muted-foreground leading-relaxed">
-                I'm an aspiring MERN Stack developer with a passion for creating dynamic, 
-                user-friendly web applications. My journey began with curiosity about how 
-                websites work, and it has evolved into a deep love for full-stack development.
+                I got into coding because I wanted to know how websites actually work. What started as curiosity turned into something I really enjoy doing. I've built authentication systems, e-commerce platforms, and various other projects - each one taught me something new.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                From building authentication systems to complex e-commerce platforms, 
-                I enjoy tackling challenges that push me to learn and grow. My goal is to 
-                become a skilled full-stack engineer who can bring innovative ideas to life.
+                I'm still learning and improving every day. My goal is to keep building useful things and become better at what I do.
               </p>
             </div>
 
             <div className="glass-panel rounded-3xl p-8 space-y-4">
-              <h3 className="text-2xl font-semibold text-primary">What Drives Me</h3>
+              <h3 className="text-2xl font-semibold text-primary">What I Focus On</h3>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-accent rounded-full mr-3"></span>
-                  Building scalable and efficient web applications
+                  Building web apps that work well and look good
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-accent rounded-full mr-3"></span>
-                  Learning new technologies and best practices
+                  Learning new tech and improving my skills
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-accent rounded-full mr-3"></span>
-                  Solving complex problems with elegant solutions
+                  Solving problems with clean, simple solutions
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-accent rounded-full mr-3"></span>
-                  Contributing to open source projects
+                  Contributing to open source when I can
                 </li>
               </ul>
             </div>

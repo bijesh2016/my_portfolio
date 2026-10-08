@@ -7,7 +7,7 @@ export const Projects = () => {
     {
       category: "Location Tech",
       title: "ATM Locator System",
-      description: "Real-time search of ATMs with comparison, user reviews, and an admin dashboard. Built using the MERN stack with role-based authentication and location-based services.",
+      description: "Built an ATM finder that shows nearby ATMs with details like fees, reviews, and distance. Added an admin panel to manage the listings. Used the MERN stack with geolocation APIs.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "JWT", "Geolocation API", "Admin Dashboard"],
       image: projectImage('atm.png'),
       githubUrl: "https://github.com/bijesh2016/atm-locator",
@@ -16,7 +16,7 @@ export const Projects = () => {
     {
       category: "Events",
       title: "Event Ticketing Platform",
-      description: "Complete system for event ticket bookings, organizer dashboards, and payment gateway integration (Khalti, Stripe). Features user and organizer portals with dynamic seat and pricing logic.",
+      description: "A ticket booking system for events. Organizers can create events, users can book seats, and payments go through Khalti or Stripe. Built separate dashboards for organizers and users.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Stripe API", "Khalti", "Payment Gateway", "Seat Management"],
       image: projectImage('event-ticketing.svg'),
       githubUrl: "https://github.com/bijesh2016/event-ticketing",
@@ -25,7 +25,7 @@ export const Projects = () => {
     {
       category: "Travel Blog",
       title: "Tourism Blog Platform (Nepal Edition)",
-      description: "A content-based blog platform showcasing top travel destinations of Nepal. Includes admin-managed posts, image galleries, and categorized search features. SEO optimized for better reach.",
+      description: "A blog about travel destinations in Nepal. Admins can add posts with images, and visitors can search and browse by category. Added SEO basics to help with visibility.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "SEO Optimization", "Image Upload", "Content Management"],
       image: projectImage('tourism.png'),
       githubUrl: "https://github.com/bijesh2016/tourism-blog",
@@ -34,7 +34,7 @@ export const Projects = () => {
     {
       category: "Hospitality",
       title: "Hotel Reservation System",
-      description: "Hotel booking system with features like room availability checking, date filters, user authentication, and booking confirmation. Future-ready for integrations like payment and email notifications.",
+      description: "Hotel booking site where users can check room availability, filter by dates, and make reservations. Added authentication for users and booking confirmations. Planning to add payments later.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Date Filtering", "Booking System", "Authentication"],
       image: projectImage('hotel.jpg'),
       githubUrl: "https://github.com/bijesh2016/hotel-reservation",
@@ -43,7 +43,7 @@ export const Projects = () => {
     {
       category: "Ecommerce",
       title: "Grocery Store E-Commerce Platform",
-      description: "A mini e-commerce application for online grocery shopping with product search, cart, checkout, admin product management, and responsive UI. Complete shopping experience.",
+      description: "An online grocery store with product search, cart, and checkout. Added an admin panel to manage products and inventory. Full shopping experience from browse to buy.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Shopping Cart", "Admin Panel", "Product Management"],
       image: projectImage('grocery.png'),
       githubUrl: "https://github.com/bijesh2016/grocery-store",
@@ -52,7 +52,7 @@ export const Projects = () => {
     {
       category: "Security",
       title: "Authentication System",
-      description: "Secure login and registration system with JWT-based authentication, password hashing with bcrypt, and client-side form validation using Yup. Foundation for secure applications.",
+      description: "A secure login/signup system using JWT for authentication and bcrypt for password hashing. Added form validation with Yup. This is what I use as a starting point for most of my apps.",
       technologies: ["React.js", "Node.js", "JWT", "bcrypt", "Yup Validation", "Security", "Form Handling"],
       image: projectImage('auth-system.png'),
       githubUrl: "https://github.com/bijesh2016/auth-system",
@@ -61,7 +61,7 @@ export const Projects = () => {
     {
       category: "Reservations",
       title: "Event Management System",
-      description: "A complete event booking platform where users can reserve seats, complete payments, manage tickets, and handle multiple reservation flows from one dashboard.",
+      description: "Event booking platform where users can reserve seats, make payments, and manage their tickets. Organizers can handle multiple events from one dashboard.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Seat Booking", "Payments", "Reservations"],
       image: projectImage('event-management.png'),
       githubUrl: "https://github.com/bijesh2016/event-management",
@@ -70,7 +70,7 @@ export const Projects = () => {
     {
       category: "Discovery",
       title: "Nepdial Listing Platform",
-      description: "A Nepal-first listing platform for products, businesses, services, education, hotels, restaurants, pets, banks, and more with map integration and discovery tools.",
+      description: "A listing site for Nepal where you can find businesses, services, hotels, restaurants, and more. Added map integration and search to help people discover local places.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Maps Integration", "Search", "Local Listings"],
       image: projectImage('nepdial-listing.png'),
       githubUrl: "https://github.com/bijesh2016/nepdial",
@@ -79,7 +79,7 @@ export const Projects = () => {
     {
       category: "Mobile App",
       title: "Hidden Nepal Mobile App",
-      description: "A travel and blog-style mobile app highlighting Nepal's rated and underrated places, itinerary planning, and guide content built for discovery on the go.",
+      description: "A mobile app for discovering Nepal's travel spots - both popular and hidden gems. Users can plan itineraries and read guides. Built with React Native.",
       technologies: ["React Native", "Travel Content", "Itinerary Planning", "Mobile UI", "Guides", "Blog Experience"],
       image: projectImage('hidden-nepal-mobile.png'),
       githubUrl: "https://github.com/bijesh2016/hidden-nepal",
@@ -88,7 +88,7 @@ export const Projects = () => {
     {
       category: "Travel Planning",
       title: "NepTrek Travel Platform",
-      description: "A travel booking and planning platform for flights, buses, taxis, itineraries, and travel blogs designed to simplify Nepal travel planning.",
+      description: "Travel planning site for Nepal where users can book flights, buses, taxis, and build itineraries. Also has travel blogs for destination ideas.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Flights", "Bus Booking", "Itinerary Builder"],
       image: projectImage('neptrek.png'),
       githubUrl: "https://github.com/bijesh2016/neptrek",
@@ -97,7 +97,7 @@ export const Projects = () => {
     {
       category: "World Guide",
       title: "Travelia Web App",
-      description: "An informational web app covering every continent, their countries, major attractions, and famous destinations in a structured travel guide format.",
+      description: "Informational site with travel guides for countries around the world. Covers continents, countries, and major attractions in an organized way.",
       technologies: ["React.js", "Node.js", "Travel Data", "Content Pages", "Destination Guides", "Search", "Responsive UI"],
       image: projectImage('travelia-world-guide.png'),
       githubUrl: "https://github.com/bijesh2016/travelia",
@@ -106,16 +106,79 @@ export const Projects = () => {
     {
       category: "Recovery",
       title: "Lost and Found System",
-      description: "An airport-ready lost and found system for posting items, verifying claims, and supporting automated product detection to speed up recovery workflows.",
+      description: "Lost and found platform for airports. People can post lost items, claim found ones, and there's some automation to help match items. Speeds up the recovery process.",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Claims", "Verification", "Automation"],
       image: projectImage('lost-found-system.png'),
       githubUrl: "https://github.com/bijesh2016/lost-found",
       liveUrl: "https://lostfound.bijeshrajsharma.com.np"
     },
     {
+      category: "Healthcare AI",
+      title: "AI Medical Prescription Reader",
+      description: "Built a tool that reads medical prescriptions using OCR and AI to extract medication info, dosages, and doctor notes. Helps patients understand their prescriptions better and reduces errors.",
+      technologies: ["Python", "OCR", "Machine Learning", "OpenCV", "NLP", "Image Processing"],
+      image: projectImage('auth-system.png'),
+      githubUrl: "https://github.com/bijesh2016/prescription-reader",
+      liveUrl: ""
+    },
+    {
+      category: "Productivity",
+      title: "Document Formatter",
+      description: "A simple but useful tool for formatting documents - converts between formats, fixes formatting issues, and cleans up text. Built to solve my own document formatting headaches.",
+      technologies: ["JavaScript", "Node.js", "File Processing", "Text Manipulation", "CLI Tool"],
+      image: projectImage('auth-system.png'),
+      githubUrl: "https://github.com/bijesh2016/document-formatter",
+      liveUrl: ""
+    },
+    {
+      category: "Social",
+      title: "Vibe - Social Media Chat App",
+      description: "A chat-based social platform where users can connect, share vibes, and have real-time conversations. Includes group chats, direct messaging, and a clean, modern UI.",
+      technologies: ["React.js", "Node.js", "Socket.io", "MongoDB", "Real-time Chat", "Express.js"],
+      image: projectImage('auth-system.png'),
+      githubUrl: "https://github.com/bijesh2016/vibe-chat",
+      liveUrl: ""
+    },
+    {
+      category: "Business",
+      title: "SME Management System",
+      description: "Designed for small and medium enterprises to manage their operations - inventory, sales, employees, and reports. Helps business owners keep track of everything in one place.",
+      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Dashboard", "Analytics"],
+      image: projectImage('auth-system.png'),
+      githubUrl: "https://github.com/bijesh2016/sme-management",
+      liveUrl: ""
+    },
+    {
+      category: "Gaming",
+      title: "C++ Game with GameHub",
+      description: "My attempt at game development using C++. Built a simple game and integrated it with GameHub for distribution. Challenging but learned a lot about game logic and C++.",
+      technologies: ["C++", "GameHub", "Game Development", "SFML", "Game Logic"],
+      image: projectImage('auth-system.png'),
+      githubUrl: "https://github.com/bijesh2016/cpp-game",
+      liveUrl: ""
+    },
+    {
+      category: "Real Estate",
+      title: "Rental Web Platform",
+      description: "A rental listing website where landlords can post properties and tenants can search and filter by location, price, and amenities. Includes booking and messaging features.",
+      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Search & Filter", "Booking System"],
+      image: projectImage('auth-system.png'),
+      githubUrl: "https://github.com/bijesh2016/rental-web",
+      liveUrl: ""
+    },
+    {
+      category: "Logistics",
+      title: "Truck Logistics Management",
+      description: "Built a system to manage truck fleets, routes, and deliveries. Helps logistics companies track shipments, optimize routes, and manage drivers efficiently.",
+      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Route Optimization", "Fleet Management"],
+      image: projectImage('auth-system.png'),
+      githubUrl: "https://github.com/bijesh2016/truck-logistics",
+      liveUrl: ""
+    },
+    {
       category: "Brand",
       title: "My Portfolio",
-      description: "My personal portfolio that presents my projects, professional identity, contact links, and background as a developer in one place.",
+      description: "This portfolio you're looking at right now. Built it to showcase my work and connect with people. Always improving it as I learn new things.",
       technologies: ["React.js", "Tailwind CSS", "Responsive Design", "Portfolio", "Personal Branding"],
       image: projectImage('bijesh-portfolio.png'),
       githubUrl: "https://github.com/bijesh2016/portfolio",
@@ -138,8 +201,7 @@ export const Projects = () => {
             My <span className="bg-tech-gradient bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            A curated set of products and concepts across booking, ecommerce, travel, discovery, and personal branding.
-            Each card is styled to feel more like a premium showcase than a plain portfolio list.
+            Here are some projects I've built over time. Some are live, some are still in progress, but each one taught me something valuable.
           </p>
         </div>
 
@@ -165,7 +227,7 @@ export const Projects = () => {
 
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-6">
-            Want to see more? Check out my GitHub for additional projects and contributions.
+            I've got more projects on GitHub if you want to dig deeper.
           </p>
           <a 
             href="https://github.com/bijesh2016" 
