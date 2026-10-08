@@ -29,15 +29,15 @@ export const About = () => {
   ];
 
   return (
-    <section id="about" className="section-shell py-20 bg-secondary/10">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,hsl(var(--accent)/0.08),transparent_25%)]"></div>
+    <section id="about" className="section-shell py-20 bg-gradient-to-b from-transparent via-secondary/20 to-transparent">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,hsl(330 81% 60% / 0.08),transparent_30%)]"></div>
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 animate-fade-in-up relative z-10">
-          <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-4 py-2 text-sm text-primary mb-6">
+          <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-gradient-to-r from-primary/10 to-accent/10 px-4 py-2 text-sm text-primary mb-6 shadow-md">
             About section
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            About <span className="bg-tech-gradient bg-clip-text text-transparent">Me</span>
+            About <span className="bg-tech-gradient bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             I'm a developer who loves building things with the MERN stack. Here's a bit about my journey and what I've been working on.
@@ -79,7 +79,7 @@ export const About = () => {
               </ul>
             </div>
 
-            <Button asChild className="bg-tech-gradient text-primary-foreground hover:scale-105 transition-all duration-300 rounded-full px-6 shadow-glow-primary">
+            <Button asChild className="bg-tech-gradient text-white hover:scale-105 transition-all duration-300 rounded-full px-6 shadow-lg hover:shadow-xl">
               <a href={resumeDownloadUrl} download>
                 Download Resume
               </a>
@@ -89,10 +89,10 @@ export const About = () => {
           {/* Skills Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 animate-fade-in-up relative z-10">
             {skills.map((skill, index) => (
-              <Card key={index} className="group border-border/50 bg-card/50 backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-glow-primary/20">
+              <Card key={index} className="group border border-primary/20 bg-white/70 backdrop-blur-xl shadow-lg shadow-gray-200/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/10">
                 <CardContent className="p-6">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="rounded-2xl bg-primary/10 p-3 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
+                    <div className="rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 p-3 text-primary transition-colors group-hover:from-primary group-hover:to-accent group-hover:text-white">
                       {skill.icon}
                     </div>
                     <h4 className="font-semibold text-lg">{skill.category}</h4>
@@ -101,7 +101,7 @@ export const About = () => {
                     {skill.techs.map((tech, techIndex) => (
                       <span 
                         key={techIndex}
-                        className="px-3 py-1 text-sm bg-primary/10 text-primary rounded-full border border-primary/20 transition-colors group-hover:bg-primary/15"
+                        className="px-3 py-1 text-sm bg-gradient-to-r from-primary/10 to-accent/10 text-primary rounded-full border border-primary/20 transition-colors group-hover:from-primary/20 group-hoverto-accent/20"
                       >
                         {tech}
                       </span>

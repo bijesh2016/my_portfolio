@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,46 +8,46 @@
 
 @layer base {
   :root {
-    /* Dark theme - primary colors */
-    --background: 220 15% 8%;
-    --foreground: 220 10% 95%;
+    /* Modern vibrant theme */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
 
-    --card: 220 13% 10%;
-    --card-foreground: 220 10% 95%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
 
-    --popover: 220 13% 10%;
-    --popover-foreground: 220 10% 95%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
 
-    /* Tech-focused primary - bright blue */
-    --primary: 210 100% 60%;
-    --primary-foreground: 220 15% 8%;
+    /* Vibrant primary - modern gradient colors */
+    --primary: 263 70% 50%;
+    --primary-foreground: 210 40% 98%;
 
-    /* Subtle secondary */
-    --secondary: 220 12% 15%;
-    --secondary-foreground: 220 10% 85%;
+    /* Soft secondary */
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 220 12% 12%;
-    --muted-foreground: 220 8% 60%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    /* Purple accent for highlights */
-    --accent: 270 100% 70%;
-    --accent-foreground: 220 15% 8%;
+    /* Vibrant accent - coral/orange */
+    --accent: 24 95% 53%;
+    --accent-foreground: 210 40% 98%;
 
-    --destructive: 0 85% 60%;
-    --destructive-foreground: 220 10% 95%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 220 12% 18%;
-    --input: 220 12% 15%;
-    --ring: 210 100% 60%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 263 70% 50%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
     /* Custom design tokens */
-    --tech-gradient: linear-gradient(135deg, hsl(210 100% 60%), hsl(270 100% 70%));
-    --tech-gradient-subtle: linear-gradient(135deg, hsl(210 100% 60% / 0.1), hsl(270 100% 70% / 0.1));
-    --glow-primary: 0 0 40px hsl(210 100% 60% / 0.3);
-    --glow-accent: 0 0 40px hsl(270 100% 70% / 0.3);
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --tech-gradient: linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%);
+    --tech-gradient-subtle: linear-gradient(135deg, hsl(263 70% 50% / 0.08), hsl(330 81% 60% / 0.08), hsl(24 95% 53% / 0.08));
+    --glow-primary: 0 0 60px hsl(263 70% 50% / 0.25);
+    --glow-accent: 0 0 60px hsl(24 95% 53% / 0.25);
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   /* Light theme fallback */
@@ -83,16 +83,17 @@
   body {
     @apply bg-background text-foreground antialiased;
     background-image:
-      radial-gradient(circle at top, hsl(var(--primary) / 0.16), transparent 30%),
-      radial-gradient(circle at 85% 15%, hsl(var(--accent) / 0.14), transparent 22%),
-      linear-gradient(to bottom, hsl(var(--background)), hsl(var(--background) / 0.96));
+      radial-gradient(circle at 0% 0%, hsl(263 70% 50% / 0.15) 0%, transparent 50%),
+      radial-gradient(circle at 100% 0%, hsl(330 81% 60% / 0.12) 0%, transparent 50%),
+      radial-gradient(circle at 100% 100%, hsl(24 95% 53% / 0.1) 0%, transparent 50%),
+      linear-gradient(to bottom, hsl(var(--background)), hsl(210 40% 98%));
     background-attachment: fixed;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Space Grotesk', sans-serif;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
   }
 
   body {
@@ -100,14 +101,14 @@
   }
 
   ::selection {
-    background: hsl(var(--primary) / 0.3);
+    background: hsl(263 70% 50% / 0.25);
     color: hsl(var(--foreground));
   }
 }
 
 @layer components {
   .glass-panel {
-    @apply border border-white/10 bg-white/5 backdrop-blur-xl shadow-2xl shadow-black/20;
+    @apply border border-white/40 bg-white/60 backdrop-blur-xl shadow-xl shadow-gray-200/50;
   }
 
   .section-shell {
@@ -118,7 +119,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, hsl(var(--background) / 0.15), transparent 30%, hsl(var(--background) / 0.35));
+    background: linear-gradient(180deg, transparent 0%, hsl(210 40% 98% / 0.5) 50%, transparent 100%);
     pointer-events: none;
   }
 }

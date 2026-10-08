@@ -32,28 +32,40 @@ export const Navbar = () => {
             </div>
           </div>
           
-          <div className="hidden md:flex items-center gap-8 rounded-full border border-border/50 bg-card/40 px-6 py-3 backdrop-blur-md">
+          <div className="hidden md:flex items-center gap-6 rounded-full border border-primary/20 bg-white/70 px-6 py-3 backdrop-blur-md shadow-md">
             <button 
               onClick={() => scrollTo('home')}
-              className="text-sm text-foreground/80 hover:text-primary transition-colors"
+              className="text-sm text-foreground/80 hover:text-primary transition-colors font-medium"
             >
               Home
             </button>
             <button 
               onClick={() => scrollTo('about')}
-              className="text-sm text-foreground/80 hover:text-primary transition-colors"
+              className="text-sm text-foreground/80 hover:text-primary transition-colors font-medium"
             >
               About
             </button>
             <button 
+              onClick={() => scrollTo('experience')}
+              className="text-sm text-foreground/80 hover:text-primary transition-colors font-medium"
+            >
+              Experience
+            </button>
+            <button 
+              onClick={() => scrollTo('education')}
+              className="text-sm text-foreground/80 hover:text-primary transition-colors font-medium"
+            >
+              Education
+            </button>
+            <button 
               onClick={() => scrollTo('projects')}
-              className="text-sm text-foreground/80 hover:text-primary transition-colors"
+              className="text-sm text-foreground/80 hover:text-primary transition-colors font-medium"
             >
               Projects
             </button>
             <button 
               onClick={() => scrollTo('contact')}
-              className="text-sm text-foreground/80 hover:text-primary transition-colors"
+              className="text-sm text-foreground/80 hover:text-primary transition-colors font-medium"
             >
               Contact
             </button>
